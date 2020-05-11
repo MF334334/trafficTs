@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <padding
+
+                android:bottom="2dp"
+
+                android:left="2dp"
+
+                android:right="2dp"
+
+                android:top="2dp" />
+
+            <solid android:color="#50CCCCCC" />
+
+            <corners android:radius="50dp" />
+
+        </shape>
+
+    </item>
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <padding
+
+                android:bottom="1dp"
+
+                android:left="1dp"
+
+                android:right="1dp"
+
+                android:top="1dp" />
+
+            <solid android:color="#50CCCCCC" />
+
+            <corners android:radius="50dp" />
+
+        </shape>
+
+    </item>
+
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <!--填充背景色 -->
+            <solid android:color="@color/white_no" />
+            <!--    solid 指的是背景颜色的设置-->
+            <corners android:radius="@dimen/dp_50" />
+        </shape>
+    </item>
+</layer-list>

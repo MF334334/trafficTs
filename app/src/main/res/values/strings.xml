@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TrafficTS</string>
+    <string name="gongneng">功能</string>
+    <string name="tubiao">图表</string>
+    <string name="zhibiao">指标</string>
+    <string name="wode">我的</string>
+    <string name="jichugongneng">基础功能</string>
+    <string name="juecegongneng">决策功能</string>
+    <string name="yongdutu">拥堵指数波动图</string>
+    <string name="renliutu">人流量波动图</string>
+    <string name="chuxingfangshi">人群出行方式情况</string>
+    <string name="chuxingmudi">人群出行目的分析</string>
+    <string name="yichangjuji">今日异常聚集</string>
+    <string name="yongjidu">今日拥挤度</string>
+    <string name="lvyoujingdian">今日热门旅游景点</string>
+    <string name="gaofengshiduan">今日高峰时段</string>
+</resources>

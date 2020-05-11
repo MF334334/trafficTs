@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://gw.alipayobjects.com/os/rmsportal/PqLCOJpqoOUfuPRacUzE.css" />
+		<title>创建地图场景</title>
+		<style>
+			::-webkit-scrollbar {
+				display: none;
+			}
+
+			html,
+			body {
+				overflow: hidden;
+				margin: 0;
+			}
+
+			#linearMap {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				width: 100%;
+			}
+			#heatMap {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				width: 100%;
+			}
+			#click {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				width: 50%;
+				margin: 0 0 0 50%;
+				align-items: flex-end;
+			}
+		</style>
+	</head>
+	<body >
+		<div id="linearMap" style="width: 50%;" ></div>
+		<div id="heatMap" style="width: 50%;" ></div>
+		<div id="click" style="width: 50%;height: 100%;background-color: aqua;" onclick="toggle()" ></div>	
+		<script>
+			/*Fixing iframe window.innerHeight 0 issue in Safari*/
+			document.body.clientHeight;
+		</script>
+		<script src="https://webapi.amap.com/maps?v=1.4.8&key=15cd8a57710d40c9b7c0e3cc120f1200&plugin=Map3D"></script>
+	
+		<script src="https://gw.alipayobjects.com/os/antv/assets/lib/jquery-3.2.1.min.js"></script>
+		<script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.l7-1.3.0-beta.4/build/L7-min.js"></script>
+		<script>
+	
+
+		</script>
+		<script type="text/javascript" src="./L7.js"></script>
+	</body>
+</html>

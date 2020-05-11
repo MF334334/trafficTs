@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.trafficts.Util_PagerView.SuperViewPager
+        android:id="@+id/ViewPager_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radioGroup"
+        android:clipChildren="false"
+
+
+        >
+
+    </com.example.trafficts.Util_PagerView.SuperViewPager>
+
+    <ImageView
+        android:id="@+id/img_shaixuan"
+        android:layout_width="@dimen/dp_35"
+        android:layout_height="@dimen/dp_35"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/dp_18"
+        android:layout_marginBottom="@dimen/dp_70"
+        android:src="@drawable/shaixuan" />
+
+    <LinearLayout
+        android:id="@+id/radio_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/dp_m_14"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/text_A"
+            style="@style/radio_text"
+            android:text="@string/gongneng" />
+
+        <RadioButton
+            android:id="@+id/text_B"
+            style="@style/radio_text"
+            android:text="@string/tubiao" />
+
+        <RadioButton
+            android:id="@+id/text_C"
+            style="@style/radio_text"
+            android:text="@string/zhibiao" />
+
+        <RadioButton
+            android:id="@+id/text_D"
+            style="@style/radio_text"
+            android:text="@string/wode" />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_above="@+id/radio_text"
+        android:background="@color/white_in"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_gongneng"
+            style="@style/RadioGroup_btn"
+            android:background="@drawable/selector_radio_btngongneng" />
+
+        <RadioButton
+            android:id="@+id/radio_tubiao"
+            style="@style/RadioGroup_btn"
+            android:background="@drawable/selector_radio_btntubiao" />
+
+        <RadioButton
+            android:id="@+id/radio_zhibiao"
+            style="@style/RadioGroup_btn"
+            android:background="@drawable/selector_radio_btnzhibiao" />
+
+        <RadioButton
+            android:id="@+id/radio_wode"
+            style="@style/RadioGroup_btn"
+
+            android:background="@drawable/selector_radio_btnwode" />
+        <!--            android:background="@drawable/selector_radio_btnwode"-->
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_above="@+id/radioGroup"
+        android:background="@color/shallow_gray" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ViewPager_container"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/radio_A"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/radio_B"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/radio_C"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/radio_D"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
